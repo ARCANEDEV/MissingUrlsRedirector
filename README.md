@@ -48,7 +48,7 @@ If you discover any security related issues, please email arcanedev.maroc@gmail.
 [badge_build]:       https://img.shields.io/github/workflow/status/ARCANEDEV/MissingUrlsRedirector/run-tests?style=flat-square
 [badge_coverage]:    https://img.shields.io/scrutinizer/coverage/g/ARCANEDEV/MissingUrlsRedirector.svg?style=flat-square
 [badge_quality]:     https://img.shields.io/scrutinizer/g/ARCANEDEV/MissingUrlsRedirector.svg?style=flat-square
-[badge_insight]:     https://img.shields.io/sensiolabs/i/[:id].svg?style=flat-square
+[badge_insight]:     https://img.shields.io/sensiolabs/i/172fae7e-c87b-4c8f-95bc-5425d548208b.svg?style=flat-square
 [badge_issues]:      https://img.shields.io/github/issues/ARCANEDEV/MissingUrlsRedirector.svg?style=flat-square
 [badge_package]:     https://img.shields.io/badge/package-arcanedev/missing--urls--redirector-blue.svg?style=flat-square
 [badge_release]:     https://img.shields.io/packagist/v/arcanedev/missing-urls-redirector.svg?style=flat-square
@@ -61,4 +61,4 @@ If you discover any security related issues, please email arcanedev.maroc@gmail.
 [link-contributors]:  https://github.com/ARCANEDEV/MissingUrlsRedirector/graphs/contributors
 [link-packagist]:     https://packagist.org/packages/arcanedev/missing-urls-redirector
 [link-scrutinizer]:   https://scrutinizer-ci.com/g/ARCANEDEV/MissingUrlsRedirector/?branch=master
-[link-insight]:       https://insight.sensiolabs.com/projects/[:id]
+[link-insight]:       https://insight.sensiolabs.com/projects/172fae7e-c87b-4c8f-95bc-5425d548208b
