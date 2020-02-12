@@ -4,12 +4,10 @@ declare(strict_types=1);
 
 namespace Arcanedev\MissingUrlsRedirector;
 
-use Arcanedev\MissingUrlsRedirector\Entities\Redirection;
 use Arcanedev\MissingUrlsRedirector\Contracts\{RedirectorManager, RedirectorProvider};
-use Arcanedev\MissingUrlsRedirector\Entities\RedirectionCollection;
+use Arcanedev\MissingUrlsRedirector\Entities\{Redirection, RedirectionCollection};
 use Arcanedev\MissingUrlsRedirector\Events\RedirectionNotFound;
 use Arcanedev\MissingUrlsRedirector\Helpers\RouteMaker;
-use Arcanedev\MissingUrlsRedirector\RedirectorProviders\ConfigProvider;
 use Illuminate\Http\{Request, Response};
 use Illuminate\Support\Arr;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
@@ -111,7 +109,7 @@ class MissingUrlsRedirector implements RedirectorManager
      */
     protected function getRedirector(): RedirectorProvider
     {
-        return $this->redirector ?? new ConfigProvider;
+        return $this->redirector;
     }
 
     /* -----------------------------------------------------------------

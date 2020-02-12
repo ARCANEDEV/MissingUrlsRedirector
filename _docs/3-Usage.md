@@ -62,7 +62,7 @@ return [
 
     'redirects' => [
         'status-codes'   => [
-            \Symfony\Component\HttpFoundation\Response::HTTP_NOT_FOUND,
+            Symfony\Component\HttpFoundation\Response::HTTP_NOT_FOUND,
         ],
 
         // ...
@@ -99,7 +99,7 @@ A `Arcanedev\MissingUrlsRedirector\Events\RedirectionNotFound` is fired when no 
 
 ## Creating your own redirector
 
-By default this package will use the `Arcanedev\MissingUrlsRedirector\RedirectorProviders\ConfigProvider` which will get its redirects from the config file.
+By default this package will use the `Arcanedev\MissingUrlsRedirector\RedirectProviders\ConfigProvider` which will get its redirects from the config file.
 
 If you want to use another source for your redirects (for example a database/eloquent) you can create your own redirector.
 
@@ -124,7 +124,7 @@ interface RedirectorProvider
      *
      * @param  \Illuminate\Http\Request|mixed  $request
      *
-     * @return array
+     * @return \Arcanedev\MissingUrlsRedirector\Entities\Redirection[]|array
      */
     public function redirectionsFor(Request $request): array;
 }
@@ -173,6 +173,7 @@ class RedirectionsProvider implements RedirectorProvider
         return [
             Redirection::make('/old-url-1', '/new-url'),
             Redirection::make('/old-url-2', '/new-url', Response::HTTP_FOUND),
+            new Redirection('/old-url-3', '/new-url', Response::HTTP_MOVED_PERMANENTLY),
         ];
     }
 }
