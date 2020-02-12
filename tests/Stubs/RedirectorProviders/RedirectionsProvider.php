@@ -33,7 +33,7 @@ class RedirectionsProvider implements RedirectorProvider
      *
      * @param  \Illuminate\Http\Request|mixed  $request
      *
-     * @return \Arcanedev\MissingUrlsRedirector\Entities\Redirection[]
+     * @return \Arcanedev\MissingUrlsRedirector\Entities\Redirection[]|array
      */
     public function redirectionsFor(Request $request): array
     {

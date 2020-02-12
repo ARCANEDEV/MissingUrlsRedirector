@@ -21,7 +21,8 @@ return [
      * The only requirement for the redirector is that it needs to implement the
      * `Arcanedev\MissingUrlsRedirector\Contracts\RedirectorProvider` interface
      */
-    'provider'  => Arcanedev\MissingUrlsRedirector\RedirectorProviders\ConfigProvider::class,
+
+    'provider'  => Arcanedev\MissingUrlsRedirector\RedirectProviders\ConfigProvider::class,
 
     /* -----------------------------------------------------------------
      |  Redirects
@@ -35,6 +36,7 @@ return [
          * response codes, just add them to the array. Leave the array empty to redirect
          * always no matter what the response code.
          */
+
         'status-codes' => [
             Symfony\Component\HttpFoundation\Response::HTTP_NOT_FOUND,
         ],
@@ -43,6 +45,7 @@ return [
          * When using the `ConfigProvider` you can specify the redirects in this array.
          * You can use Laravel's route parameters here.
          */
+
         'urls'   => [
 //            '/non-existing-page' => '/existing-page',
 //            '/old-blog/{url}' => '/new-blog/{url}',

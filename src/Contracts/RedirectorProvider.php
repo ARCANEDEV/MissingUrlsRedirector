@@ -31,7 +31,7 @@ interface RedirectorProvider
      *
      * @param  \Illuminate\Http\Request|mixed  $request
      *
-     * @return array
+     * @return \Arcanedev\MissingUrlsRedirector\Entities\Redirection[]|array
      */
     public function redirectionsFor(Request $request): array;
 }

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\MissingUrlsRedirector\RedirectorProviders;
+namespace Arcanedev\MissingUrlsRedirector\RedirectProviders;
 
 use Arcanedev\MissingUrlsRedirector\Contracts\RedirectorProvider;
 use Illuminate\Contracts\Config\Repository;
@@ -10,7 +10,7 @@ use Illuminate\Contracts\Config\Repository;
 /**
  * Class     ConfigProvider
  *
- * @package  Arcanedev\MissingUrlsRedirector\RedirectorProviders
+ * @package  Arcanedev\MissingUrlsRedirector\RedirectProviders
  * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
  */
 class ConfigProvider implements RedirectorProvider
@@ -58,7 +58,7 @@ class ConfigProvider implements RedirectorProvider
      *
      * @param  \Illuminate\Http\Request|mixed  $request
      *
-     * @return array
+     * @return \Arcanedev\MissingUrlsRedirector\Entities\Redirection[]|array
      */
     public function redirectionsFor($request): array
     {
