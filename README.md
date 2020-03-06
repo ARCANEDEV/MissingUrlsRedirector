@@ -55,8 +55,8 @@ If you discover any security related issues, please email arcanedev.maroc@gmail.
 [badge_downloads]:   https://img.shields.io/packagist/dt/arcanedev/missing-urls-redirector.svg?style=flat-square
 
 [link-author]:        https://github.com/arcanedev-maroc
-[link-github-status]: https://github.com/ARCANEDEV/MissingUrlsRedirector/actions
 [link-github-repo]:   https://github.com/ARCANEDEV/MissingUrlsRedirector
+[link-github-status]: https://github.com/ARCANEDEV/MissingUrlsRedirector/actions
 [link-github-issues]: https://github.com/ARCANEDEV/MissingUrlsRedirector/issues
 [link-contributors]:  https://github.com/ARCANEDEV/MissingUrlsRedirector/graphs/contributors
 [link-packagist]:     https://packagist.org/packages/arcanedev/missing-urls-redirector
