@@ -8,12 +8,15 @@
  
 ## Version Compatibility
 
-| LogViewer                                                      | Laravel                      |
-|:---------------------------------------------------------------|:-----------------------------|
-| ![Missing Urls Redirector v4.3.x][missing_urls_redirector_1_x] | ![Laravel v6.x][laravel_6_x] |
+| LogViewer                                                    | Laravel                      |
+|:-------------------------------------------------------------|:-----------------------------|
+| ![Missing Urls Redirector v2.x][missing_urls_redirector_2_x] | ![Laravel v7.x][laravel_7_x] |
+| ![Missing Urls Redirector v1.x][missing_urls_redirector_1_x] | ![Laravel v6.x][laravel_6_x] |
 
+[laravel_7_x]:  https://img.shields.io/badge/v7.x-supported-brightgreen.svg?style=flat-square "Laravel v7.x"
 [laravel_6_x]:  https://img.shields.io/badge/v6.x-supported-brightgreen.svg?style=flat-square "Laravel v6.x"
 
+[missing_urls_redirector_2_x]: https://img.shields.io/badge/version-2.x-blue.svg?style=flat-square "Missing Urls Redirector v2.x"
 [missing_urls_redirector_1_x]: https://img.shields.io/badge/version-1.x-blue.svg?style=flat-square "Missing Urls Redirector v1.x"
 
 ## Composer

@@ -18,7 +18,7 @@ Feel free to check out the [releases](https://github.com/ARCANEDEV/MissingUrlsRe
 
 ### Features
 
-  * Laravel `6.x` is supported.
+  * Laravel `6.x | 7.x` are supported.
   * Easy setup & configuration.
   * Well tested (100% code coverage with maximum code quality).
   * Made with :heart: &amp; :coffee:.
@@ -44,7 +44,7 @@ If you discover any security related issues, please email arcanedev.maroc@gmail.
 - [All Contributors][link-contributors]
 
 [badge_license]:     https://img.shields.io/packagist/l/arcanedev/missing-urls-redirector.svg?style=flat-square
-[badge_laravel]:     https://img.shields.io/badge/Laravel-6.x-orange.svg?style=flat-square
+[badge_laravel]:     https://img.shields.io/badge/Laravel-6.x|7.x-orange.svg?style=flat-square
 [badge_build]:       https://img.shields.io/github/workflow/status/ARCANEDEV/MissingUrlsRedirector/run-tests?style=flat-square
 [badge_coverage]:    https://img.shields.io/scrutinizer/coverage/g/ARCANEDEV/MissingUrlsRedirector.svg?style=flat-square
 [badge_quality]:     https://img.shields.io/scrutinizer/g/ARCANEDEV/MissingUrlsRedirector.svg?style=flat-square
