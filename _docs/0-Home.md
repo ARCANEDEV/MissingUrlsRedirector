@@ -4,7 +4,7 @@ This package allows you to handle the missing urls/pages with ease.
 
 ### Features
 
-  * Laravel `6.x` is supported.
+  * Laravel `6.x | 7.x` are supported.
   * Easy setup & configuration.
   * Well tested (100% code coverage with maximum code quality).
   * Made with :heart: &amp; :coffee:.
